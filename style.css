@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-style: normal;
+}
+.wrapper{
+  height:1050px;
+  width:1050px;
+  display: inline-block;
+  vertical-align: middle;
+  /*outline: 3px dotted pink;*/
+  margin: auto;
+  margin-left: 100px;
+}
+.column{
+  height:50%;
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  /*outline: 3px dotted yellow;*/
+  /*margin: auto;*/
+  /*padding: 10px;*/
+  margin-top: 30px;
+}
+.cards{
+  height:150px;
+  width: 270px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 150px;
+  /*outline: 2px solid black;*/
+}
+
+.hidden{
+  display:none;
+}
+#new{
+  height:50%;
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  /*outline: 3px dotted yellow;*/
+  /*margin: auto;*/
+  /*padding: 10px;*/
+  margin-top: 30px;
+}
